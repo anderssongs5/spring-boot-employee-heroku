@@ -31,6 +31,7 @@ public class DipMicrEmployeeHerokuApplication {
 		repository.add(new Employee(2L, 3L, "Andrew Campton", 30, "Manager"));
 		repository.add(new Employee(2L, 4L, "Steve Franklin", 25, "Developer"));
 		repository.add(new Employee(2L, 4L, "Elisabeth Smith", 30, "Developer"));
+		repository.add(new Employee(2L, 4L, "Andersson García Sotelo", 26, "Developer"));
 		log.info("Repository: {}", repository);
 		return repository;
 	}
